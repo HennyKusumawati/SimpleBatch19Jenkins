@@ -1,0 +1,43 @@
+        Jenkins
+
+Doing all the test cases from 1 laptop is not a good idea, bc we cant perform
+anything else during the test being executed. For that reason we need to dedicate
+one computer to just perform the test execution.
+Jenkins is an open source automation server, which help us to automate the application
+deployment in our infrastructure.
+One of the main feature of Jenkins is to manage the executions of all the test cases.
+Jenkins can automatically fetch all of our test cases from Github repo, every single
+time we push all the changes to Github. And if some of test cases are failing, Jenkins
+will generate a report and send the email to the testers or developers, or even can
+notify specifically to the person who wrote the failed test case.
+
+So the main job of Jenkins is: to execute all the test cases, and it will notify the
+                                appropriate person if there's failed test case
+(so we just need to run our script, and then Jenkins do his thing)
+Jenkins also can do the test based on any schedule that we assign to Jenkins.
+For ex - We can tell Jenkins to run all the test cases every Monday morning (or every
+        5 days, or even every minute) and if something is not good, notify me.
+       - Or we can tell jenkins to run the test case everytime a dev committing new
+        code in the repo.
+
+   Another good thing about Jenkins is that Jenkins support a lot of plugins.
+
+   'Build' means : The process of taking the source code and converting it to a file
+   .exe or .dmg(on mac)
+
+   The Advantages of Jenkins:
+    1. It's an open source and user friendly, easy to install and doesnt require
+       additional installation or components.
+    2. It's free of cost
+    3. Easily configurable. Easily modified and extended. it deploys code instantly
+       and generates test reports.
+    4. Rich Plugin ecosystem
+
+
+    Terminal command:
+   1. to see how many and which folders/files we have in our project, we use ls
+   2. to change directory we use : cd dirName
+
+   The interpreter or compiler name is javac. Javac compile our code into bytecodes
+   javac Main.java
+   java Main
